@@ -5,6 +5,7 @@
 # Local packaging and installed-build backups
 /stage/
 /backups/
+/dist/
 
 # IDE and user-specific files
 .vs/

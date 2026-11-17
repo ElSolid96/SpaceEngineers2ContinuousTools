@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>ContinuousTools</AssemblyName>
+    <RootNamespace>ContinuousTools</RootNamespace>
+    <OutputPath>bin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <GameDir Condition="'$(GameDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers2\Game2</GameDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="ContinuousTools.Tests" />
+    <PackageReference Include="MonoMod.RuntimeDetour" Version="25.3.3" />
+    <Reference Include="VRage.Core"><HintPath>$(GameDir)\VRage.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VRage.DCS"><HintPath>$(GameDir)\VRage.DCS.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VRage.UI"><HintPath>$(GameDir)\VRage.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VRage.UI.Shared"><HintPath>$(GameDir)\VRage.UI.Shared.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Avalonia.Controls"><HintPath>$(GameDir)\Avalonia.Controls.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Avalonia.Base"><HintPath>$(GameDir)\Avalonia.Base.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Game2.Client"><HintPath>$(GameDir)\Game2.Client.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Game2.Simulation"><HintPath>$(GameDir)\Game2.Simulation.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

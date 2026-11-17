@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ContinuousTools/ContinuousTools.csproj" />
+  <Project Path="ContinuousTools.Tests/ContinuousTools.Tests.csproj" />
+</Solution>

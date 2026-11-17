@@ -1,0 +1,21 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Local packaging and installed-build backups
+/stage/
+/backups/
+
+# IDE and user-specific files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.*~

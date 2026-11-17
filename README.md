@@ -5,8 +5,9 @@ and grinder. It does not modify or depend on Build Planner.
 
 ## Install
 
-1. Download and extract the complete release folder somewhere permanent, outside the SE2 game
-   directory. For example:
+1. Download the latest ZIP from
+   [Releases](https://github.com/ElSolid96/SpaceEngineers2ContinuousTools/releases), then extract
+   the complete folder somewhere permanent, outside the SE2 game directory. For example:
 
    ```text
    C:\SE2Mods\ContinuousTools\

@@ -6,6 +6,7 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>ContinuousTools</AssemblyName>
     <RootNamespace>ContinuousTools</RootNamespace>
+    <Version>1.0.1</Version>
     <OutputPath>bin\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>

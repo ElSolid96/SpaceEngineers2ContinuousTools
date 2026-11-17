@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.1 — 2026-11-16
 
 - Ignore SE2's transient `BlockIntegrityScreen` and `InteractionHintScreen` overlays so ordinary
   welder/grinder use and double-click latching are not interrupted.
